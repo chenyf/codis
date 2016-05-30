@@ -20,10 +20,10 @@ import (
 	"github.com/martini-contrib/cors"
 	"github.com/wandoulabs/zkhelper"
 
-	"../../pkg/models"
-	"../../pkg/utils"
-	"../../pkg/utils/errors"
-	"../../pkg/utils/log"
+	"github.com/chenyf/codis/pkg/models"
+	"github.com/chenyf/codis/pkg/utils"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 func cmdDashboard(argv []string) (err error) {

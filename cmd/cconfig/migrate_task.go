@@ -10,10 +10,10 @@ import (
 
 	"github.com/wandoulabs/zkhelper"
 
-	"../../pkg/models"
-	"../../pkg/utils"
-	"../../pkg/utils/errors"
-	"../../pkg/utils/log"
+	"github.com/chenyf/codis/pkg/models"
+	"github.com/chenyf/codis/pkg/utils"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 type MigrateTaskInfo struct {

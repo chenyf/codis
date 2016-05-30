@@ -4,8 +4,8 @@
 package router
 
 import (
-	"../../utils/atomic2"
 	"encoding/json"
+	"github.com/chenyf/codis/pkg/utils/atomic2"
 	"sync"
 )
 

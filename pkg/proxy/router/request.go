@@ -6,8 +6,8 @@ package router
 import (
 	"sync"
 
-	"../../utils/atomic2"
-	"../redis"
+	"github.com/chenyf/codis/pkg/proxy/redis"
+	"github.com/chenyf/codis/pkg/utils/atomic2"
 )
 
 type Dispatcher interface {

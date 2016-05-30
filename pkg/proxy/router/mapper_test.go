@@ -6,8 +6,8 @@ package router
 import (
 	"testing"
 
-	"../redis"
-	"../../utils/assert"
+	"github.com/chenyf/codis/pkg/redis"
+	"github.com/chenyf/codis/utils/assert"
 )
 
 func TestGetOpStr(t *testing.T) {

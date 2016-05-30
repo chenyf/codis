@@ -12,8 +12,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"../errors"
-	"../trace"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/trace"
 )
 
 const (

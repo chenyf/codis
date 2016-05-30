@@ -3,7 +3,7 @@
 
 package assert
 
-import "../log"
+import "github.com/chenyf/codis/pkg/log"
 
 func Must(b bool) {
 	if b {

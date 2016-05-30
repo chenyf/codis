@@ -11,8 +11,8 @@ import (
 	"github.com/c4pt0r/cfg"
 	"github.com/wandoulabs/zkhelper"
 
-	"../utils/errors"
-	"../utils/log"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 func InitConfig() (*cfg.Cfg, error) {

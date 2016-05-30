@@ -9,8 +9,8 @@ import (
 
 	"github.com/docopt/docopt-go"
 
-	"../../pkg/utils/errors"
-	"../../pkg/utils/log"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 func cmdAction(argv []string) (err error) {

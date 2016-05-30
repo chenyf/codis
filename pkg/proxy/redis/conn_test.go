@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"../utils/assert"
-	"../utils/atomic2"
-	"../utils/errors"
+	"github.com/chenyf/codis/pkg/utils/assert"
+	"github.com/chenyf/codis/pkg/utils/atomic2"
+	"github.com/chenyf/codis/pkg/utils/errors"
 )
 
 func newConnPair() (*Conn, *Conn) {

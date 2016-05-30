@@ -9,7 +9,7 @@ import (
 	"io"
 	"strconv"
 
-	"../../utils/errors"
+	"github.com/chenyf/codis/pkg/utils/errors"
 )
 
 var (

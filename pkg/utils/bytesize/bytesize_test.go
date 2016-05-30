@@ -6,9 +6,9 @@ package bytesize_test
 import (
 	"testing"
 
-	"../assert"
-	. "../bytesize"
-	"../errors"
+	"github.com/chenyf/codis/pkg/assert"
+	. "github.com/chenyf/codis/pkg/bytesize"
+	"github.com/chenyf/codis/pkg/errors"
 )
 
 func TestBytesize(t *testing.T) {

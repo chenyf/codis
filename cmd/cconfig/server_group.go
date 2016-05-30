@@ -9,8 +9,8 @@ import (
 
 	"github.com/docopt/docopt-go"
 
-	"../../pkg/models"
-	"../../pkg/utils/log"
+	"github.com/chenyf/codis/pkg/models"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 // codis redis instance manage tool

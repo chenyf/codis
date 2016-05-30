@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
-	"../utils"
-	"../utils/assert"
-	"../utils/errors"
-	"../utils/log"
+	"github.com/chenyf/codis/pkg/utils"
+	"github.com/chenyf/codis/pkg/utils/assert"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 	"github.com/wandoulabs/zkhelper"
 )
 

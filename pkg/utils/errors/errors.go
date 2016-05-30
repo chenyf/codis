@@ -7,7 +7,7 @@ import (
 	"errors"
 	"fmt"
 
-	"../trace"
+	"github.com/chenyf/codis/pkg/utils/trace"
 )
 
 var TraceEnabled = true

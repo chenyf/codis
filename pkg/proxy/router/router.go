@@ -4,10 +4,10 @@
 package router
 
 import (
-	"../../models"
-	"../../utils/errors"
-	"../../utils/log"
-	"../redis"
+	"github.com/chenyf/codis/pkg/models"
+	"github.com/chenyf/codis/pkg/proxy/redis"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 	"strings"
 	"sync"
 )

@@ -19,11 +19,11 @@ import (
 
 	"github.com/docopt/docopt-go"
 	//"github.com/ngaut/gostats"
-	"../../pkg/proxy"
-	"../../pkg/proxy/router"
-	"../../pkg/utils"
-	"../../pkg/utils/bytesize"
-	"../../pkg/utils/log"
+	"github.com/chenyf/codis/pkg/proxy"
+	"github.com/chenyf/codis/pkg/proxy/router"
+	"github.com/chenyf/codis/pkg/utils"
+	"github.com/chenyf/codis/pkg/utils/bytesize"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 var (

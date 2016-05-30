@@ -10,7 +10,7 @@ import (
 	"github.com/wandoulabs/go-zookeeper/zk"
 	"github.com/wandoulabs/zkhelper"
 
-	"../utils/log"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 const retryMaxOnOps = 10

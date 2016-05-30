@@ -16,9 +16,9 @@ import (
 	"github.com/c4pt0r/cfg"
 	"github.com/docopt/docopt-go"
 
-	"../../pkg/utils/errors"
-	"../../pkg/utils/log"
-	"../../pkg/utils"
+	"github.com/chenyf/codis/pkg/utils"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 // global objects

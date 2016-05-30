@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"../redis"
-	"../../utils/assert"
+	"github.com/chenyf/codis/pkg/redis"
+	"github.com/chenyf/codis/utils/assert"
 )
 
 func TestBackend(t *testing.T) {

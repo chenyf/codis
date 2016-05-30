@@ -13,7 +13,7 @@ import (
 	"github.com/wandoulabs/go-zookeeper/zk"
 	"github.com/wandoulabs/zkhelper"
 
-	"../../pkg/utils/log"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 const (

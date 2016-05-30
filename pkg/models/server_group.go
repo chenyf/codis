@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"../utils"
-	"../utils/errors"
-	"../utils/log"
+	"github.com/chenyf/codis/pkg/utils"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 	"github.com/wandoulabs/zkhelper"
 )
 

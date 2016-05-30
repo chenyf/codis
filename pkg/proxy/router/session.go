@@ -4,12 +4,12 @@
 package router
 
 import (
-	"../../utils/atomic2"
-	"../../utils/errors"
-	"../../utils/log"
-	"../redis"
 	"encoding/json"
 	"fmt"
+	"github.com/chenyf/codis/pkg/proxy/redis"
+	"github.com/chenyf/codis/pkg/utils/atomic2"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 	"net"
 	"strconv"
 	"strings"

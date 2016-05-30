@@ -13,8 +13,8 @@ import (
 	"github.com/garyburd/redigo/redis"
 	"github.com/wandoulabs/zkhelper"
 
-	"../models"
-	"../utils/assert"
+	"github.com/chenyf/codis/pkg/models"
+	"github.com/chenyf/codis/pkg/utils/assert"
 )
 
 var (

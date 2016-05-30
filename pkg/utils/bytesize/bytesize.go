@@ -8,8 +8,8 @@ import (
 	"strconv"
 	"strings"
 
-	"../errors"
-	"../log"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 const (

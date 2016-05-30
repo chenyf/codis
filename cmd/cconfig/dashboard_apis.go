@@ -15,9 +15,9 @@ import (
 	"github.com/wandoulabs/go-zookeeper/zk"
 	"github.com/wandoulabs/zkhelper"
 
-	"../../pkg/models"
-	"../../pkg/utils"
-	"../../pkg/utils/log"
+	"github.com/chenyf/codis/pkg/models"
+	"github.com/chenyf/codis/pkg/utils"
+	"github.com/chenyf/codis/pkg/utils/log"
 )
 
 var globalMigrateManager *MigrateManager

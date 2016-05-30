@@ -13,8 +13,8 @@ import (
 	"strconv"
 	"time"
 
-	"../utils/errors"
-	"../utils/log"
+	"github.com/chenyf/codis/pkg/utils/errors"
+	"github.com/chenyf/codis/pkg/utils/log"
 	"github.com/wandoulabs/go-zookeeper/zk"
 	"github.com/wandoulabs/zkhelper"
 )
